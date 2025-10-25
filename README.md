@@ -20,8 +20,15 @@
   
 ## System Design
   - ### System Requirements
-    - OOO
-    - OOO
+    - Python 3.10
+    - Git LFS (대용량 모델 파일(.h5, .safetensors)을 다운로드하기 위해 필수)
+    - TensorFlow & Keras (LSTM 단어 인식 모델 실행)
+    - PyTorch (T5 문장 생성 모델 실행)
+    - Transformers (T5 모델 로드 및 토크나이저)
+    - OpenCV (실시간 카메라 영상 처리)
+    - Mediapipe (실시간 손 관절 좌표 추출)
+    - Scikit-learn (데이터 전처리 및 LabelEncoder)
+    - CUDA 11.x (NVIDIA GPU 가속을 위해 강력히 권장)
     
 ## Case Study
   - ### Description
@@ -32,4 +39,4 @@
   - ### OOO
   
 ## Project Outcome
-- ### 20XX 년 OO학술대회 
+- ### 
