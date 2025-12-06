@@ -1,0 +1,2 @@
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+ASL_translation/my_finetuned_t5_model/*.safetensors filter=lfs diff=lfs merge=lfs -text
